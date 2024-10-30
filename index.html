@@ -3,82 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Gabriel Splicio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Gabriel Splicio de Castro</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Gabriel Splicio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
-                <li class="nav-item"><a class="nav-link" href="#educacao">Educação</a></li>
-                <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <a href="#" class="logo">Gabriel Splicio</a>
 
-    <!-- Sobre Section -->
-    <section id="sobre" class="p-5 text-center bg-light">
-        <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>Olá, sou Gabriel Splicio De Castro, tenho 20 anos. Atualmente trabalho como entregador no Mercado Livre, com experiência em administração e TI.</p>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#services">Serviços</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#education">Educação</a>
+            <a href="#experience">Experiência</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <main>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Foto de Gabriel Splicio">
+        </div>
+        <div class="home-content">
+            <h1>Olá, Eu sou <span>Gabriel Splicio de Castro</span></h1>
+            <h3 class="typing-text">Assistente Administrativo e Técnico em TI</h3>
+            <p>Tenho 20 anos, com experiência em administração e informática. Apaixonado por tecnologia, tenho habilidades com manutenção de computadores, Excel, Photoshop e mais.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Contrate-me</a>
+        </div>
+    </section>
+    
+    
+    <!-- Services Section -->
+    <section id="services" class="section-content">
+        <h2>Serviços</h2>
+        <p>Atendimento ao cliente, manutenção de computadores e administração com foco em Excel e Notas Fiscais.</p>
+        <div class="service-list">
+            <div class="service-item">
+                <i class="fa-solid fa-wrench"></i>
+                <h3>Manutenção de Computadores</h3>
+                <p>Manutenção, formatação e montagem de computadores para garantir o melhor desempenho.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-users"></i>
+                <h3>Atendimento ao Cliente</h3>
+                <p>Experiência em atendimento ao cliente com foco na solução de problemas e eficiência.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <h3>Administração</h3>
+                <p>Trabalhos administrativos como controle de Excel, notas fiscais e finanças.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Experiência Section -->
-    <section id="experiencia" class="p-5">
-        <div class="container">
-            <h2>Experiência Profissional</h2>
-            <ul>
-                <li><strong>Papelaria</strong>: Vendas e atendimento com materiais de escritório, manutenção de computadores.</li>
-                <li><strong>A.Yoshii Engenharia</strong>: Assistente Administrativo, responsável por Excel e notas fiscais.</li>
-            </ul>
+<!-- Skills Section -->
+<section id="skills" class="section-content">
+    <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>Photoshop</h3>
+                <p>Nível: Alto</p>
+            </div>
+            <div class="skill-item">
+                <h3>Excel</h3>
+                <p>Nível: Alto</p>
+            </div>
+            <div class="skill-item">
+                <h3>Word</h3>
+                <p>Nível: Alto</p>
+            </div>
+            <div class="skill-item">
+                <h3>Python</h3>
+                <p>Nível: Médio</p>
+            </div>
+            <div class="skill-item">
+                <h3>Sony Vegas</h3>
+                <p>Nível: Alto</p>
+            </div>
+            <div class="skill-item">
+                <h3>TI Geral</h3>
+                <p>Nível: Alto</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section-content">
+        <h2>Educação</h2>
+        <div class="education-details">
+            <h3>Administração - Unifil</h3>
+            <p>Curso completo de Administração com foco em finanças e recursos humanos.</p>
+            <h3>Desenvolvimento de Jogos 3D</h3>
+            <p>Curso técnico em desenvolvimento de jogos 3D, explorando habilidades de design e programação.</p>
         </div>
     </section>
 
-    <!-- Educação Section -->
-    <section id="educacao" class="p-5 bg-light">
-        <div class="container">
-            <h2>Educação e Cursos</h2>
-            <p>Administração na Unifil, e curso de Desenvolvimento de Jogos 3D.</p>
+    <!-- Experience Section -->
+    <section id="experience" class="section-content">
+        <h2>Experiência</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Papelaria - Menor Aprendiz</h3>
+                <p>Vendas de produtos didáticos, atendimento ao cliente, manutenção de computadores e serviços administrativos.</p>
+            </div>
+            <div class="experience-item">
+                <h3>A.Yoshii Engenharia - Assistente Administrativo</h3>
+                <p>Controle de Excel e Notas Fiscais, além de outras funções administrativas e financeiras.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Mercado Livre - Entregador</h3>
+                <p>Responsável pela entrega de pedidos e atendimento ao cliente em toda a região de Londrina.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Habilidades Section -->
-    <section id="habilidades" class="p-5">
-        <div class="container">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Photoshop: Alto</li>
-                <li>Excel: Alto</li>
-                <li>Word: Alto</li>
-                <li>Python: Médio</li>
-                <li>Sony Vegas: Alto</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Contato Section -->
-    <section id="contato" class="p-5 bg-light text-center">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Email: gabrielsplicio1@gmail.com</p>
-            <p>Telefone: (43) 98487-7485</p>
+    <!-- Contact Section -->
+    <section id="contact" class="section-content">
+        <h2>Contato</h2>
+        <div class="contact-details">
+            <p>Email: <a href="mailto:gabrielsplicio1@gmail.com">gabrielsplicio1@gmail.com</a></p>
+            <p>Telefone: <a href="tel:+5543984877485">(43) 98487-7485</a></p>
             <p>Endereço: Londrina, PR</p>
         </div>
     </section>
 
-    <!-- JavaScript e Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </main>
+
+    <!-- JavaScript e Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
 </body>
 </html>
